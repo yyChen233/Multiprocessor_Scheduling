@@ -239,7 +239,7 @@ def genetic_schedule(graph, proc_num, times, pop_size, iterations_num):
     return str(best_time)
 
 
-with open(r'./测试数据/rand0000.txt', 'r') as files:
+with open(r'../data/rand0000.txt', 'r') as files:
     temp = list(map(int, files.readline().split(' ')))
     task_num = temp[0]
     edge_num = 0

@@ -111,7 +111,7 @@ def sanity_check(schedule, num_tasks, res_time):
 
 
 
-with open(r'./测试数据/rand0000.txt', 'r') as files:
+with open(r'../data/rand0000.txt', 'r') as files:
     temp = list(map(int, files.readline().split(' ')))
     num_tasks = temp[0]
     num_edges = 0
